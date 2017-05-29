@@ -1,10 +1,11 @@
-# MatLab Files
+# Hand Writing Regonization
 ## Introduction
-This is a file that contains Matlab codes I have been doing on and off. 
-Purpose of these codes are practical implementation of research problems.
-Some of them are reproduction of famous Machine Learning algorithms.
-## Source Code
-All the Codes are written in MatLab. There are always several files upload seperately for a single purpose.
-Please note that all the codes subject to inefficiencies and errors.
+Use NN to classify pictures of numbers(0-9).
+## files:
+numberdata.dat: The data taken from MNIST.
+Cost_Gradient.m: The cost function used in training the model.
+oneVSall.m: The classifier. Specifically, the one vs. all classifier.
+visualize.m: Visuallize the digital data as images.
+HandWrittingRegon.m: The main function to compier everything.
 ## Copyright
 The files are open to download and use. Please keep the author name.
